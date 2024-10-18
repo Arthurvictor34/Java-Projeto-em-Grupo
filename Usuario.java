@@ -1,10 +1,10 @@
 
 public class Usuario {
 
-    private String nome;
+    public String nome;
     private String senhausuario;
     private String emailusuario;
-    private int idadeusuario;
+    public int idadeusuario;
     private String celular;
 
     // Construtor Vazio
