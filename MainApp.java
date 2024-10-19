@@ -26,7 +26,7 @@ public class MainApp{
         as1.setConteudoAdicional(" null ");
         as1.setDescriçãoDaAssinatura("null");
         as1.setNomeDaAssinatura("Premium");
-        as1.setPreçoDaAssinatura(59.90f);
+        as1.setPreçoDaAssinatura(59.90);
         as1.setqtDeTelasSimultanea(4);
        
         

@@ -3,7 +3,7 @@ public class Assinatura {
 
     private String nomeassinatura;
     private String descriçãoassinatura;
-    private float preçoassinatura;
+    private double preçoassinatura;
     private int qtelassimultanea; // Quantidade de telas simultanea
     private String conteudoadicional; // 4k, Dolby Vision e etc...
     
@@ -43,11 +43,11 @@ public class Assinatura {
         return this.descriçãoassinatura;
     }
 
-    public void setPreçoDaAssinatura( float preçoassinatura){
+    public void setPreçoDaAssinatura( double preçoassinatura){
         this.preçoassinatura = preçoassinatura;
     }
 
-    public float getPreçoDaAssinatura(){
+    public double getPreçoDaAssinatura(){
         return this.preçoassinatura;
     }
 
