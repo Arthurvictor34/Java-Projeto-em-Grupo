@@ -1,7 +1,7 @@
 
 public class Usuario {
 
-    public String nome;
+    public String nomeUsuario;
     protected String senhausuario;
     protected String emailusuario;
     public int idadeusuario;
@@ -13,13 +13,13 @@ public class Usuario {
     }
 
     // Construtor padrão
-    public Usuario( String nome){
-        this.nome = nome;
+    public Usuario( String nomeUsuario){
+        this.nomeUsuario = nomeUsuario;
     }
 
     // Construtor Sobrecarregado
-    public Usuario( String nome, String senhausuario, String emailusuario, int idadeusuario, String celular){
-        this.nome = nome;
+    public Usuario( String nomeUsuario, String senhausuario, String emailusuario, int idadeusuario, String celular){
+        this.nomeUsuario = nomeUsuario;
         this.senhausuario = senhausuario;
         this.emailusuario = emailusuario;
         this.idadeusuario = idadeusuario;
@@ -27,12 +27,12 @@ public class Usuario {
     }
      
     // getters e setters
-    public void setNome( String nome){
-        this.nome = nome;
+    public void setnomeUsuario( String nome){
+        this.nomeUsuario = nome;
     }
 
-    public String getNome(){
-        return this.nome;
+    public String getnomeUsuario(){
+        return this.nomeUsuario;
     }
 
     public void setSenhaUsuario( String senhausuario){

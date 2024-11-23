@@ -1,4 +1,4 @@
-public class Pessoa extends Usuario {
+public abstract class Pessoa extends Usuario {
     protected String cpf;
 
     public Pessoa ( String nome, String senhausuario, String emailusuario, int idadeusuario, String celular, String cpf){

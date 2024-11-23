@@ -2,7 +2,7 @@ public class MainApp{
 
     public static void main( String [] args ){
         Usuario us1 = new Usuario();
-        us1.setNome (" Silvo ");
+        us1.setnomeUsuario (" Silvo ");
         us1.setEmailUsuario ("SilvioPadeiro@gmail.com");
         us1.setSenhaUsuario (" Silvio1234");
         us1.setIdadeUsuario(12);
