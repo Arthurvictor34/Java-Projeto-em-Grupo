@@ -1,5 +1,5 @@
 
-public class Usuario {
+public class Usuario extends Pessoa {
 
     public String nomeUsuario;
     protected String senhausuario;
@@ -14,11 +14,13 @@ public class Usuario {
 
     // Construtor padrão
     public Usuario( String nomeUsuario){
+        
         this.nomeUsuario = nomeUsuario;
     }
 
     // Construtor Sobrecarregado
-    public Usuario( String nomeUsuario, String senhausuario, String emailusuario, int idadeusuario, String celular){
+    public Usuario( String nomeUsuario, String senhausuario, String emailusuario, int idadeusuario, String celular, String cpf){
+        super(cpf);
         this.nomeUsuario = nomeUsuario;
         this.senhausuario = senhausuario;
         this.emailusuario = emailusuario;

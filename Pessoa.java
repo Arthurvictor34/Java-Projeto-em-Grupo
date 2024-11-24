@@ -1,11 +1,16 @@
-public abstract class Pessoa extends Usuario {
+public abstract class Pessoa {
     protected String cpf;
 
-    public Pessoa ( String nome, String senhausuario, String emailusuario, int idadeusuario, String celular, String cpf){
-        super(nome, senhausuario, emailusuario, idadeusuario, celular);
+    public Pessoa(){
+        // Construtor Vazio
+    }
+
+    // Construtor Padrão
+    public Pessoa (String cpf){
         this.cpf = cpf;
     }
    
+    // Getters e Setters
     public void setCPF( String cpf){
         this.cpf = cpf;
     }
